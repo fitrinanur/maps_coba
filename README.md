@@ -1,2 +1,3 @@
-# maps_coba
-Task GIS
+# maps using google map API
+created by @fitrinanur
+support by @ardani
