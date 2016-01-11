@@ -33,7 +33,7 @@
     </h1>
     <ul class="nav nav-tabs">
         <li class=""><a href="<?php echo site_url("maps/home") ?>">Home</a></li>
-        <li><a href="<?php echo site_url("maps/about") ?>">Wisata Solo</a></li>
+        <li><a href="<?php echo site_url("maps/about") ?>">About</a></li>
         <li class="navbar-right"><a href="<?php echo site_url("maps/login") ?>">Login</a>
         </li>
     </ul>

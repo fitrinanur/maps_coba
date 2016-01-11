@@ -12,10 +12,10 @@
     <script src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
     <!--//<script src="<?php echo base_url(); ?>assets/js/jquery.dataTables.min.js"></script>-->
 </head>
-<body>
-<div class="container">
+<body style="background-color:#E1E1E1">
+
 <!-------------------------------------NAVBAR---------------------------------------------------------------->
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"> Sistem Informasi Pemetaan Pariwisata </a>
+            <a class="navbar-brand" href="<?php echo site_url("maps/index")?>"> Sistem Informasi Pemetaan Pariwisata </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,5 +69,4 @@
 </div>
 </body>
 <!----------------------------------------------------------------------------------------------------- -->
-</div>
 </html>

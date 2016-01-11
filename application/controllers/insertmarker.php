@@ -61,7 +61,7 @@ class Insertmarker extends CI_Controller {
 
     private function prepare_template($data)
     {
-        $template = "<div id='iw-container'><div class='iw-title'>$data[nama_lokasi]</div><div class='iw-content'><div class='iw-subTitle'>$data[nama_lokasi]</div><img src='assets/img/$data[image]'><p>$data[info]</p></div><div class='iw-bottom-gradient'></div></div>";
+        $template = "<div id='iw-container'><div class='iw-title'>$data[nama_lokasi]</div><div class='iw-content'><div class='iw-subTitle'>$data[nama_lokasi]</div><img src='../assets/img/$data[image]'><p>$data[info]</p></div><div class='iw-bottom-gradient'></div></div>";
         return $template;
     }
 }

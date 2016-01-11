@@ -1,6 +1,6 @@
-<div class="jumbotron">
-	<center><h1><span class="glyphicon glyphicon-user"></h1>
-  		<h1> Welcome!</h1>
-  			<p>Welcome to Admin Page. You can add category (variabel) , subs category and Insert data.</p>
-  	</center>
+<div class="panel panel-default" id="about">
+  <div class="panel-body">
+    <h1>Welcome, Admin !</h1>
+    <p>On this page, you can insert data for new marker on the map.</p>
+  </div>
 </div>

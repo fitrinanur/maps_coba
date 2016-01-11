@@ -1,3 +1,5 @@
+<div class="panel panel-default">
+<div class="panel-body">
 <?php
     if(!empty($status)){
         echo "
@@ -5,8 +7,9 @@
         ";
     }
 ?>
+
 <form role="form" enctype="multipart/form-data" action="<?php echo site_url("insertmarker/add_marker"); ?>"
-      method='post'>
+      method='post' id="form_insert">
     <div class="form-group">
         <label for="exampleInputEmail1">Koordinat</label>
         <input type="text" class="form-control" name="lokasi" required
@@ -33,3 +36,5 @@
     </div>
     <button type="submit" class="btn btn-primary"> Submit</button>
 </form>
+</div>
+</div>
