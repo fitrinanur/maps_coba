@@ -20,6 +20,20 @@
         <input type="text" class="form-control" name="nama_lokasi" required
                placeholder="Example : Prambanan Temple">
     </div>
+     <div class="form-group">
+        <label for="exampleInputNamaLokasi">Subtitle</label>
+        <input type="text" class="form-control" name="subtitle" required
+               placeholder="Example : keterangan / History">
+    </div>
+     <div class="form-group">
+        <label for="exampleInputAlamat"> Alamat</label>
+        <textarea class="form-control" name="alamat" required></textarea>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputNomerTlp">Nomer Tlp</label>
+        <input type="text" class="form-control" name="nomer_tlp" required
+               placeholder="Example : 085728909xxx">
+    </div>
     <div class="form-group">
         <label for="exampleInputInfo"> Info</label>
         <textarea class="form-control" name="info" required></textarea>

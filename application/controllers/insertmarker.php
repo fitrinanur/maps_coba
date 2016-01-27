@@ -22,7 +22,11 @@ class Insertmarker extends CI_Controller {
         $data = array(
             'lokasi' => $this->input->post('lokasi'),
             'nama_lokasi' => $this->input->post('nama_lokasi'),
+            'subtitle'=> $this->input->post('subtitle'),
+            'alamat'=> $this->input->post('alamat'),
+            'nomer_tlp'=> $this->input->post('nomer_tlp'),
             'info' => $this->input->post('info')
+
         );
         $config = array(
             'allowed_types' => 'jpg|jpeg|gif|png',
@@ -61,7 +65,7 @@ class Insertmarker extends CI_Controller {
 
     private function prepare_template($data)
     {
-        $template = "<div id='iw-container'><div class='iw-title'>$data[nama_lokasi]</div><div class='iw-content'><div class='iw-subTitle'>$data[nama_lokasi]</div><img src='../assets/img/$data[image]'><p>$data[info]</p></div><div class='iw-bottom-gradient'></div></div>";
+        $template = "<div id='iw-container'><div class='iw-title'>$data[nama_lokasi]</div><div class='iw-content'><div class='iw-subTitle'>$data[subtitle]</div><img src='../assets/img/$data[image]' height='115' width='83'><p>$data[info]</p><div class='iw-subTitle'>Contact</div><p><b>$data[nama_lokasi]</b><br>$data[alamat] </p><br/><p> Phone. $data[nomer_tlp]<br/>Jawa Tengah</p></div><div class='iw-bottom-gradient'></div></div>";
         return $template;
     }
 }

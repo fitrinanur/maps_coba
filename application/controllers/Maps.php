@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+
 class Maps extends CI_Controller {
     function __construct() {
         parent::__construct();
@@ -7,14 +7,14 @@ class Maps extends CI_Controller {
 
     public function index() {
         $config['center'] = '-7.569125, 110.829693';
-        $config['zoom'] = '11';
+        $config['zoom'] = '13';
         $this->googlemaps->initialize($config);
         $markers = $this->map_model->get_marker();
         /*print_r($markers);exit;*/
         foreach ($markers as $marker) {
             $set_marker = array(
                 'position' => $marker['lokasi'],
-                'icon' => base_url('assets/img') . "/" . $marker['icon'],
+                'icon' => base_url('../assets/img') . "/" . $marker['icon'],
                 'infowindow_content' => $marker['info']
             );
             /*print_r($set_marker);*/
@@ -35,14 +35,14 @@ class Maps extends CI_Controller {
 
     public function home() {
         $config['center'] = '-7.569125, 110.829693';
-        $config['zoom'] = '11';
+        $config['zoom'] = '13';
         $this->googlemaps->initialize($config);
         $markers = $this->map_model->get_marker();
         /*print_r($markers);exit;*/
         foreach ($markers as $marker) {
             $set_marker = array(
                 'position' => $marker['lokasi'],
-                'icon' => base_url('assets/img') . "/" . $marker['icon'],
+                'icon' => base_url('../assets/img') . "/" . $marker['icon'],
                 'infowindow_content' => $marker['info']
             );
             /*print_r($set_marker);*/
