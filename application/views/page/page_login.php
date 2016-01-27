@@ -7,14 +7,14 @@
 						    <label for="inputUsername" class="col-sm-2 control-label"> Username</label>
 						    <div class="col-sm-10">
 						      <input type="text" class="form-control"
-						      	id="inputCodePerumahan" placeholder="Code of Perumahan" name="username">
+						      	id="inputCodePerumahan" placeholder="Username" name="username">
 						    </div>
 						</div>
 						<div class="form-group">
 						    <label for="inputPassword" class="col-sm-2 control-label"> Password</label>
 						    <div class="col-sm-10">
 						      <input type="password" class="form-control"
-						      id="inputPerumahan" placeholder="Perumahan" name="password">
+						      id="inputPerumahan" placeholder="password" name="password">
 						    </div>
 						</div>
 						  <div class="form-group">
