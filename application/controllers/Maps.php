@@ -35,7 +35,7 @@ class Maps extends CI_Controller {
 
     public function home() {
         $config['center'] = '-7.569125, 110.829693';
-        $config['zoom'] = '13';
+        $config['zoom'] = '8';
         $this->googlemaps->initialize($config);
         $markers = $this->map_model->get_marker();
         /*print_r($markers);exit;*/
