@@ -20,16 +20,14 @@
         $('#background_cycler').hide();//hide the background while the images load, ready to fade in later
     </script>
     <img class="active"
-         src="<?php echo base_url(); ?>assets//img/accounting.jpg" alt=""/>
+         src="<?php echo base_url(); ?>assets/img/accounting2.jpg" alt=""/>
     <img class="active"
-         src="<?php echo base_url(); ?>assets/img/Accounting2.jpg" alt=""/>
-    <img class="active"
-         src="<?php echo base_url(); ?>assets/img/Accounting3.jpg" alt=""/>
+         src="<?php echo base_url(); ?>assets/img/accounting3.jpg" alt=""/>
 </div>
 <div class="container">
 
-    <h1>
-        <center>MAP PARIWISATA SOLO</center>
+    <h1 class="text-center">
+        MAP PARIWISATA SOLO
     </h1>
     <ul class="nav nav-tabs">
         <li class=""><a href="<?php echo site_url("maps/home") ?>">Home</a></li>

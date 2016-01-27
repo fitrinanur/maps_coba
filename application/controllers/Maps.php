@@ -14,7 +14,7 @@ class Maps extends CI_Controller {
         foreach ($markers as $marker) {
             $set_marker = array(
                 'position' => $marker['lokasi'],
-                'icon' => base_url('../assets/img') . "/" . $marker['icon'],
+                'icon' => base_url() . "/assets/img/" . $marker['icon'],
                 'infowindow_content' => $marker['info']
             );
             /*print_r($set_marker);*/
@@ -42,7 +42,7 @@ class Maps extends CI_Controller {
         foreach ($markers as $marker) {
             $set_marker = array(
                 'position' => $marker['lokasi'],
-                'icon' => base_url('../assets/img') . "/" . $marker['icon'],
+                'icon' => base_url() . "/assets/img" . $marker['icon'],
                 'infowindow_content' => $marker['info']
             );
             /*print_r($set_marker);*/
